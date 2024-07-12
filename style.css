@@ -5,6 +5,14 @@ ul {
 
 li {
     list-style-type: none;
+    border: 5px solid #ccc; /* Add a border around each list item */
+    padding: 10px; /* Add some padding inside the box */
+    margin: 5px 0; /* Add some space between the list items */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Add a subtle shadow to create a "lifted" effect */
+    border-radius: 5px; /* Round the corners of the border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sticky {
